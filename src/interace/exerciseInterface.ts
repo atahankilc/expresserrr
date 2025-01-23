@@ -34,3 +34,7 @@ const exercises: Exercise[] = [
   ];
 
 export const getExercises = () => exercises;
+
+export const updateExercise = () => exercises[0];
+
+export const deleteExercise = () => null;
